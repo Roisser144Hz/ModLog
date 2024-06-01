@@ -1,0 +1,271 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      //1: "describes your app and its dependencies"
+      //2: "https://docs.npmjs.com/files/package.json"
+      //3: "updating this file will download and update your packages"
+      name: "voxiccoderegister"
+      version: "0.0.1"
+      description: "v12 Register"
+      main: "bot.js"
+      scripts: 
+        start: "node bot.js"
+      dependencies: 
+        chalk: "^4.1.2"
+        discord-buttons: "^4.0.0"
+        discord.js: "^12.5.3"
+        express: "^4.17.1"
+        fs: "^0.0.2"
+        hastebin-gen: "^2.0.5"
+        jimp: "^0.16.1"
+        moment: "^2.29.1"
+        moment-duration-format: "^2.3.2"
+        ms: "^2.1.3"
+        node-fetch: "^2.7.0"
+        quick.db: "^7.1.3"
+        snekfetch: "^4.0.4"
+        user.instagram: "^3.0.2"
+        discord-logs: "^2.2.1"
+        google-tts-api: "^2.0.2"
+        wio.db: "^4.0.22"
+      engines: 
+        node: "12.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      readme: "# Register\nRegister\n"
+      readmeFilename: "README.md"
+      gitHead: "a40a69ee75c87147af9c212f6d8d997d07946509"
+      _id: "voxiccoderegister@0.0.1"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:deprecation: 
+    deprecated: "New lib is coming! Join our support server for more help: https://discord.gg/KUS5pjyA4J"
+    depth: 0
+    pkgId: "registry.npmjs.org/discord-buttons/4.0.0"
+    pkgName: "discord-buttons"
+    pkgVersion: "4.0.0"
+    prefix: "/app"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord-buttons/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fs/0.0.2"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment-duration-format/2.3.2"
+    requester: "/app"
+    status: "resolved"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.3"
+    requester: "/app"
+    status: "resolved"
+  9 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/google-tts-api/2.0.2"
+    requester: "/app"
+    status: "resolved"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/chalk/4.1.2"
+    requester: "/app"
+    status: "resolved"
+  11 debug pnpm:deprecation: 
+    deprecated: "use node-fetch instead"
+    depth: 0
+    pkgId: "registry.npmjs.org/snekfetch/4.0.4"
+    pkgName: "snekfetch"
+    pkgVersion: "4.0.4"
+    prefix: "/app"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/snekfetch/4.0.4"
+    requester: "/app"
+    status: "resolved"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment/2.30.1"
+    requester: "/app"
+    status: "resolved"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord-logs/2.2.1"
+    requester: "/app"
+    status: "resolved"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/hastebin-gen/2.0.5"
+    requester: "/app"
+    status: "resolved"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/wio.db/4.0.22"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/quick.db/7.1.3"
+    requester: "/app"
+    status: "resolved"
+  18 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-fetch/2.7.0"
+    requester: "/app"
+    status: "resolved"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.19.2"
+    requester: "/app"
+    status: "resolved"
+  20 error pnpm: 
+    message: "404 Not Found: user.instagram (via https://registry.npmjs.org/user.instagram)"
+    code: "ERR_PNPM_REGISTRY_META_RESPONSE_404"
+    uri: "https://registry.npmjs.org/user.instagram"
+    response: 
+      body: 
+        _readableState: 
+          objectMode: false
+          highWaterMark: 16384
+          buffer: 
+            head: 
+              data: 
+                type: "Buffer"
+                data: 
+                  - 123
+                  - 34
+                  - 101
+                  - 114
+                  - 114
+                  - 111
+                  - 114
+                  - 34
+                  - 58
+                  - 34
+                  - 78
+                  - 111
+                  - 116
+                  - 32
+                  - 102
+                  - 111
+                  - 117
+                  - 110
+                  - 100
+                  - 34
+                  - 125
+              next: null
+            tail: 
+              data: 
+                type: "Buffer"
+                data: 
+                  - 123
+                  - 34
+                  - 101
+                  - 114
+                  - 114
+                  - 111
+                  - 114
+                  - 34
+                  - 58
+                  - 34
+                  - 78
+                  - 111
+                  - 116
+                  - 32
+                  - 102
+                  - 111
+                  - 117
+                  - 110
+                  - 100
+                  - 34
+                  - 125
+              next: null
+            length: 1
+          length: 21
+          pipes: null
+          pipesCount: 0
+          flowing: null
+          ended: true
+          endEmitted: false
+          reading: false
+          sync: false
+          needReadable: false
+          emittedReadable: true
+          readableListening: false
+          resumeScheduled: false
+          paused: true
+          emitClose: true
+          destroyed: false
+          defaultEncoding: "utf8"
+          awaitDrain: 0
+          readingMore: false
+          decoder: null
+          encoding: null
+        readable: true
+        _events: {}
+        _eventsCount: 1
+        _writableState: 
+          objectMode: false
+          highWaterMark: 16384
+          finalCalled: false
+          needDrain: false
+          ending: true
+          ended: true
+          finished: true
+          destroyed: false
+          decodeStrings: true
+          defaultEncoding: "utf8"
+          length: 0
+          writing: false
+          corked: 0
+          sync: false
+          bufferProcessing: false
+          writecb: null
+          writelen: 0
+          bufferedRequest: null
+          lastBufferedRequest: null
+          pendingcb: 0
+          prefinished: true
+          errorEmitted: false
+          emitClose: true
+          bufferedRequestCount: 0
+          corkedRequestsFree: 
+            next: null
+            entry: null
+        writable: false
+        allowHalfOpen: true
+        _transformState: 
+          needTransform: false
+          transforming: false
+          writecb: null
+          writechunk: null
+          writeencoding: "buffer"
+      size: 0
+      timeout: 0
+      url: "https://registry.npmjs.org/user.instagram"
+      status: 404
+      statusText: "Not Found"
+      headers: {}
+    package: "user.instagram"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord-buttons/4.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/jimp/0.16.13"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:deprecation: 
+    deprecated: "no longer supported"
+    depth: 0
+    pkgId: "registry.npmjs.org/discord.js/12.5.3"
+    pkgName: "discord.js"
+    pkgVersion: "12.5.3"
+    prefix: "/app"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/12.5.3"
+    requester: "/app"
+    status: "resolved"
